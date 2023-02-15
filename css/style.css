@@ -112,6 +112,14 @@ body {
     font-size: 15px;
 }
 
+input[type="button"]:hover {
+    cursor: pointer;
+}
+
+.btn {
+    cursor: pointer;
+}
+
 .relative {
     position: relative;
 }
