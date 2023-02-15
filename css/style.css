@@ -1,3 +1,69 @@
+/* Paddings and margins */
+.py-30 {
+    padding: 28px 0;
+}
+
+.py-lg {
+    padding: 100px 0;
+}
+
+.pl-30 {
+    padding-left: 50px;
+}
+
+.pr-10 {
+    padding-right: 10px;
+}
+
+.ml-20 {
+    margin-left: 25px;
+}
+
+.mr-4 {
+    margin-right: 4px;
+}
+
+.mr-150 {
+    margin-right: 150px;
+}
+
+.py-50 {
+    padding: 50px 0;
+}
+
+
+/* Widths and heights*/
+.w-35pp {
+    width: 35%;
+}
+
+.w-20pp {
+    width: 8%;
+}
+
+.w-60pp {
+    width: 40%;
+}
+
+/* Flex */
+.row {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+/* Elements and classes */
+
 * {
     box-sizing: border-box;
 }
@@ -7,8 +73,113 @@ body {
 }
 
 .container {
-    width: 80%;
+    width: 96%;
     margin: 0 auto;
-    background-color: blueviolet;
-    height: 500px;
+}
+
+.btn-redondo {
+    border: none;
+    padding: 15px 20px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.btn-negro {
+    background-color: black;
+    color: white;
+}
+
+.btn-transparente {
+    background-color: white;
+    box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+.fondo {
+    background-image: url(../img/fondo.png);
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0 200px 0;
+}
+
+.fondo h1 {
+    font-size: 50px;
+}
+
+.input-blanco {
+    border: none;
+    height: 50px;
+    font-size: 15px;
+}
+
+.relative {
+    position: relative;
+}
+
+.inline {
+    display: inline;
+}
+
+.ubi {
+    position: absolute;
+    top: 50%;
+    left: 17px;
+    transform: translate(0, -50%);
+}
+
+.fondo select {
+    font-weight: bold;
+    padding-left: 40px;
+}
+
+.btn-pocoredondo {
+    border: none;
+    padding: 17px 20px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+a {
+    color: black;
+}
+
+.fondo p {
+    font-weight: bold;
+}
+
+.col-3 {
+    width: 32.5%;
+}
+
+.col-3 img {
+    width: 100%;
+}
+
+.col-3 h2 {
+    font-weight: bold;
+    margin: 3px 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin: 12px 0;
+}
+
+footer ul a {
+    text-decoration: none;
+}
+
+.font-small {
+    font-size: 12px;
+}
+
+img[alt="reloj"] {
+    position: absolute;
+    left: 10px;
+    top: 0;
 }

@@ -1,13 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
-</head>
-<body>
-    <div class="container"></div>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="container row justify-between align-center py-30">
+            <img src="img/logo.svg" width="120px" alt="" />
+            <div class="row align-center">
+                <button
+                    class="row justify-between align-center btn-transparente btn-redondo"
+                >
+                    <img src="img/user.png" alt="" class="mr-4" />
+                    Iniciar sesión
+                </button>
+                <input
+                    type="button"
+                    value="Registrarse"
+                    class="ml-20 btn-negro btn-redondo"
+                />
+            </div>
+        </div>
+        <div class="fondo">
+            <div class="container">
+                <h1>De tu local favorito a la puerta de tu casa</h1>
+                <br />
+                <div class="relative inline mr-4">
+                    <img src="img/ubicacion.png" class="ubi" alt="" />
+                    <input
+                        type="text"
+                        name="dir"
+                        id=""
+                        class="input-blanco w-60pp pl-30"
+                        placeholder="Introduce la dirección de entrega"
+                    />
+                </div>
+                <div class="relative inline">
+                    <img src="img/time.png" alt="reloj" />
+                    <select name="entrega" class="input-blanco mr-4">
+                        <option value="">Entregar ahora</option>
+                        <option value="">Entregar despues</option>
+                        <option value="">Comer aqui</option>
+                    </select>
+                </div>
+                <input
+                    type="button"
+                    value="Buscar comida"
+                    class="btn-negro btn-pocoredondo"
+                />
+                <p>
+                    <a href="#">Iniciar sesión</a>
+                    para consultar tus direcciones recientes
+                </p>
+            </div>
+        </div>
+        <div class="container row justify-between py-50">
+            <div class="col-3">
+                <img src="img/new1.png" alt="" />
+                <h2>Proporciona comida a tus empleados</h2>
+                <a href="#">Crea una cuenta de empresa</a>
+            </div>
+            <div class="col-3">
+                <img src="img/new2.png" alt="" />
+                <h2>Tu restaurante, a domicilio</h2>
+                <a href="#">Añadir tu restaurante</a>
+            </div>
+            <div class="col-3">
+                <img src="img/new3.png" alt="" />
+                <h2>Reparte con Uber Eats</h2>
+                <a href="#">Registrarse para hacer entregas</a>
+            </div>
+        </div>
+        <footer class="relative container row justify-between">
+            <div class="left">
+                <img src="img/logo.svg" width="120px" alt="" />
+                <br /><br />
+                <img src="img/appstore.png" width="120px" alt="" />
+                <img src="img/googleplay.png" width="120px" alt="" />
+            </div>
+            <div class="right w-35pp row justify-between mr-150">
+                <ul>
+                    <a href="#"><li>Obtener ayuda</li></a>
+                    <a href="#"><li>Añadir tu restaurante</li></a>
+                    <a href="#"><li>Registrate para hacer entregas</li></a>
+                    <a href="#"><li>Crear una cuenta de empresa</li></a>
+                    <a href="#"><li>Promociones</li></a>
+                </ul>
+                <ul>
+                    <a href="#"><li>Restaurantes cercanos</li></a>
+                    <a href="#"><li>Ver todas las ciudades</li></a>
+                    <a href="#"><li>Ver todos los países</li></a>
+                    <a href="#"><li>Para recoger cerca de mi</li></a>
+                    <a href="#"><li>Acerca de Uber Eats</li></a>
+                </ul>
+            </div>
+        </footer>
+        <div class="container row justify-between align-center py-30">
+            <div class="row justify-between align-center w-20pp">
+                <img src="img/facebook.png" alt="" />
+                <img src="img/twitter.png" alt="" />
+                <img src="img/instagram.png" alt="" />
+            </div>
+            <div class="right font-small">
+                <i class="fa fa-copyright" aria-hidden="true"></i>
+                2023 Uber Technologies Inc.
+            </div>
+        </div>
+    </body>
 </html>
